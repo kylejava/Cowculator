@@ -1,0 +1,22 @@
+{
+  "name": "cowculator",
+  "version": "1.0.0",
+  "description": "Calculator",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nealamendoza/Cowculator.git"
+  },
+  "author": "Kyle Java, Neala Mendoza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nealamendoza/Cowculator/issues"
+  },
+  "homepage": "https://github.com/nealamendoza/Cowculator#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
