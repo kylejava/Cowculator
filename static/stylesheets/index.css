@@ -4,6 +4,9 @@ font-family: Krub;
 src: url(../fonts/Krub.ttf);
 }
 
+.logo{
+    background-color: #F7C8D2;
+}
 
 
 ul {
@@ -17,15 +20,41 @@ ul {
 
 li {
   display: inline;
-  border-right: 1px solid #bbb;
+  /*border-right: 1px solid #bbb;*/
+}
+
+li a {
+  /*displays a block when you hover over the navigation bar;*/
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: Krub;
+  font-size: 20px;
+}
+
+li a:hover {
+  /*turns light pink when you hover*/
+  background-color: #FDE6EC;
+  color: #000000;
 }
 
 .index{
   background-color: #C0E1F8;
-  border: 5px solid #E2DBC9;
+  /*border: 5px solid #E2DBC9;*/
   font-family: Krub;
   font-size: 25px;
-  width: 50%;
+  width: 100%;
   border-radius: 25px;
   margin: auto;
+}
+
+h1{
+  background-color: #C0E1F8;
+  font-size: 50px;
+  font-family: Krub;
+  color: #000000;
+  margin-top:5px;
+  margin-bottom:5px;
+  text-align: center;
 }
