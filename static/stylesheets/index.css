@@ -8,6 +8,9 @@ src: url(../fonts/Krub.ttf);
     background-color: #F7C8D2;
 }
 
+body{
+background-color: #C0E1F8;
+}
 
 ul {
   list-style-type: none;
