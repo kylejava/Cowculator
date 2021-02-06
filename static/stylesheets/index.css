@@ -3,3 +3,29 @@
 font-family: Krub;
 src: url(../fonts/Krub.ttf);
 }
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  border: 1px solid #e7e7e7;
+  background-color: #F7C8D2;
+  font-family: Krub;
+}
+
+li {
+  display: inline;
+  border-right: 1px solid #bbb;
+}
+
+.index{
+  background-color: #C0E1F8;
+  border: 5px solid #E2DBC9;
+  font-family: Krub;
+  font-size: 25px;
+  width: 50%;
+  border-radius: 25px;
+  margin: auto;
+}
