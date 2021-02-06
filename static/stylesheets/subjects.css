@@ -1,0 +1,33 @@
+@font-face{
+font-family: Krub;
+src: url(../fonts/Krub.ttf);
+}
+
+.box{
+  width: 300px;
+  height: 62px;
+  background: #F7C8D2;
+  border: 3px solid #E2DBC9;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+  left: 762px;
+top: 372px;
+}
+
+p{
+  font-family: Krub;
+}
+h1{
+  font-family: Krub;
+  font-style: normal;
+font-weight: normal;
+font-size: 200px;
+line-height: 94px;
+/* identical to box height */
+
+
+color: #FEFEFE;
+width: 506px;
+height: 94px;
+}

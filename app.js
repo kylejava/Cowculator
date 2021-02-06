@@ -5,10 +5,13 @@ const port = 3000
 
 
 
-app.use(express.static("public"));
+app.use(express.static(__dirname + "/static"));
 
 app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname + '/views/index.html'));
+})
+app.get('/subjects', (req, res) => {
+  res.sendFile(path.join(__dirname + '/views/subjects.html'));
 })
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`)
