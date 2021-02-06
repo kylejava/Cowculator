@@ -41,12 +41,16 @@ li a:hover {
 
 .index{
   background-color: #C0E1F8;
-  /*border: 5px solid #E2DBC9;*/
   font-family: Krub;
   font-size: 25px;
   width: 100%;
   border-radius: 25px;
   margin: auto;
+}
+
+.squareFrame{
+  border-radius: 20%;
+  border: 5px solid #E2DBC9;
 }
 
 h1{
