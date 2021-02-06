@@ -1,0 +1,71 @@
+
+@font-face{
+font-family: Krub;
+src: url(../fonts/Krub.ttf);
+}
+
+.logo{
+    background-color: #F7C8D2;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  border: 1px solid #e7e7e7;
+  background-color: #F7C8D2;
+  font-family: Krub;
+}
+
+li {
+  display: inline;
+  /*border-right: 1px solid #bbb;*/
+}
+
+li a {
+  /*displays a block when you hover over the navigation bar;*/
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: Krub;
+  font-size: 20px;
+}
+
+li a:hover {
+  /*turns light pink when you hover*/
+  background-color: #FDE6EC;
+  color: #000000;
+}
+
+h1{
+  background-color: #C0E1F8;
+  font-size: 70px;
+  font-family: Krub;
+  color: #FEFEFE;
+  /*text-shadow: 2px 2px #000000;*/
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: #000000;
+  margin-top:5px;
+  margin-bottom:5px;
+  text-align: center;
+  width: fit-content;
+}
+
+.gradePage{
+/*background-color: #D7E9FD; /*#FFFBEF;*/
+/*border: 3px solid #B19170;*/
+font-family: Krub;
+color: #FEFEFE;
+font-size: 25px;
+width: 20%;
+/*border-radius: 100px;
+/*align: center;*/
+margin: auto;
+}
+
+.gradeTop{
+width: fit-content;
+margin: auto;
+}
