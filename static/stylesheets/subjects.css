@@ -2,6 +2,48 @@
 font-family: Krub;
 src: url(../fonts/Krub.ttf);
 }
+.logo{
+    background-color: #F7C8D2;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  border: 1px solid #e7e7e7;
+  background-color: #F7C8D2;
+  font-family: Krub;
+}
+
+li {
+  display: inline;
+  /*border-right: 1px solid #bbb;*/
+}
+
+li a {
+  /*displays a block when you hover over the navigation bar;*/
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: Krub;
+  font-size: 20px;
+}
+
+li a:hover {
+  /*turns light pink when you hover*/
+  background-color: #FDE6EC;
+  color: #000000;
+}
+
+.index{
+  background-color: #C0E1F8;
+  font-family: Krub;
+  font-size: 25px;
+  width: 100%;
+  border-radius: 25px;
+  margin: auto;
+}
 
 .box{
   width: 300px;
@@ -19,15 +61,18 @@ p{
   font-family: Krub;
 }
 h1{
-  font-family: Krub;
-  font-style: normal;
-font-weight: normal;
-font-size: 200px;
-line-height: 94px;
-/* identical to box height */
+
+    background-color: #C0E1F8;
+    font-size: 70px;
+    font-family: Krub;
+    color: #FEFEFE;
+    /*text-shadow: 2px 2px #000000;*/
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #000000;
+    margin-top:5px;
+    margin-bottom:5px;
+    text-align: center;
+    width: fit-content;
 
 
-color: #FEFEFE;
-width: 506px;
-height: 94px;
 }
