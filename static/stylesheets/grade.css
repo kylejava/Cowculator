@@ -81,6 +81,8 @@ margin: auto;
   border-radius: 7px;
   border: none;
   box-shadow: 2px 2px #E2DBC9;
+  width: 300px;
+height: 62px;
 }
 
 .button2{
@@ -90,6 +92,8 @@ margin: auto;
   border-radius: 7px;
   border: none;
   box-shadow: 2px 2px #E2DBC9;
+  width: 300px;
+height: 62px;
 }
 
 .button3{
@@ -99,6 +103,8 @@ margin: auto;
   border-radius: 7px;
   border: none;
   box-shadow: 2px 2px #E2DBC9;
+  width: 300px;
+height: 62px;
 }
 
 .button4{
@@ -108,4 +114,6 @@ margin: auto;
   border-radius: 7px;
   border: none;
   box-shadow: 2px 2px #E2DBC9;
+  width: 300px;
+height: 62px;
 }
