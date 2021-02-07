@@ -67,7 +67,7 @@ h1{
     font-family: Krub;
     color: #FEFEFE;
     /*text-shadow: 2px 2px #000000;*/
-    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #000000;
     margin-top:5px;
     margin-bottom:5px;
