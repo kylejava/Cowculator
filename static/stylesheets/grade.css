@@ -73,3 +73,39 @@ margin: auto;
 width: fit-content;
 margin: auto;
 }
+
+.button{
+  background-color: #F7C8D2;
+  font-family: Krub;
+  color: #000000;
+  border-radius: 7px;
+  border: none;
+  box-shadow: 2px 2px #E2DBC9;
+}
+
+.button2{
+  background-color: #F7C8D2;
+  font-family: Krub;
+  color: #000000;
+  border-radius: 7px;
+  border: none;
+  box-shadow: 2px 2px #E2DBC9;
+}
+
+.button3{
+  background-color: #F7C8D2;
+  font-family: Krub;
+  color: #000000;
+  border-radius: 7px;
+  border: none;
+  box-shadow: 2px 2px #E2DBC9;
+}
+
+.button4{
+  background-color: #F7C8D2;
+  font-family: Krub;
+  color: #000000;
+  border-radius: 7px;
+  border: none;
+  box-shadow: 2px 2px #E2DBC9;
+}
