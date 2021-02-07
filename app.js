@@ -24,6 +24,46 @@ app.get('/firstgrade', (req, res) => {
 app.get('/secondgrade', (req, res) => {
   res.sendFile(path.join(__dirname + '/views/secondGrade.html'));
 })
+
+//app.get('/thirdgrade', (req, res) => {
+//  res.sendFile(path.join(__dirname + '/views/secondGrade.html'));
+//})
+app.get('/fourthgrade', (req, res) => {
+  res.sendFile(path.join(__dirname + '/views/fourth.html'));
+})
+
+app.get('/addition', (req, res) => {
+  res.sendFile(path.join(__dirname + '/views/addition.html'));
+})
+
+app.get('/subtraction', (req, res) => {
+  res.sendFile(path.join(__dirname + '/views/subtraction.html'));
+})
+
+app.get('/decimals', (req, res) => {
+  res.sendFile(path.join(__dirname + '/views/decimals.html'));
+})
+
+app.get('/division', (req, res) => {
+  res.sendFile(path.join(__dirname + '/views/division.html'));
+})
+
+app.get('/fractions', (req, res) => {
+  res.sendFile(path.join(__dirname + '/views/fractions.html'));
+})
+
+app.get('/graphs', (req, res) => {
+  res.sendFile(path.join(__dirname + '/views/graphs.html'));
+})
+
+app.get('/money', (req, res) => {
+  res.sendFile(path.join(__dirname + '/views/money.html'));
+})
+
+app.get('/multiplication', (req, res) => {
+  res.sendFile(path.join(__dirname + '/views/multiplication.html'));
+})
+
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`)
 })
